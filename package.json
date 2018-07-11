@@ -1,6 +1,7 @@
 {
   "name": "comment-app",
   "version": "0.0.1",
+  "homepage": "https://andy00614.github.io/react-comment",
   "private": true,
   "devDependencies": {
     "react-scripts": "0.9.3"
@@ -13,6 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
